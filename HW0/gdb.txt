@@ -1,0 +1,87 @@
+GDB Practice:
+
+آ. gdb map
+
+ب. break main
+
+ج. run
+
+د. print argv		
+
+    * (char **) 0x7fffffffe538 به خانه آرگومان اول اشاره میکند که نام برنامه است.
+
+ه. print *argv	
+
+    * (0x7fffffffe760 "/home/vagrant/code/handouts/HW0/map") رشته نام برنامه
+
+و. next 3
+
+ز. print recur	
+
+    * ({int (int)} 0x5555555546cd <recur>)
+
+ح. step
+
+ط. until 7
+
+ی. layout asm
+
+ک ni 5
+
+ل. info r
+
+
+    *rax            0x2      2
+rbx            0x0      0
+rcx            0x0      0
+rdx            0x0      0
+rsi            0x555555756340   93824994337600
+rdi            0x2      2
+rbp            0x7fffffffe410   0x7fffffffe410
+rsp            0x7fffffffe3f0   0x7fffffffe3f0
+r8             0x0      0
+r9             0x0      0
+r10            0x555555756010   93824994336784
+r11            0x246    582
+r12            0x555555554580   93824992232832
+r13            0x7fffffffe530   140737488348464
+r14            0x0      0
+r15            0x0      0
+rip            0x555555554702   0x555555554702 <recur+53>
+eflags         0x202    [ IF ]
+cs             0x33     51
+ss             0x2b     43
+ds             0x0      0
+es             0x0      0
+fs             0x0      0
+gs             0x0      0
+
+م. stepi
+
+ن. layout src
+
+س. backtrace 
+
+ع. break recur if i == 0
+
+ف. continue
+
+ص. backtrace
+
+ق. up 4  (argc = 1)
+
+ر. next 3
+
+ش. layout asm
+
+ت.
+
+    * mov	$0x0,%eax
+
+ث. layout src
+
+خ. next 4
+
+ذ. continue
+
+ض. q

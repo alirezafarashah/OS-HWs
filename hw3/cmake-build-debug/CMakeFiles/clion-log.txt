@@ -1,0 +1,2 @@
+CMakeLists.txt not found in C:\Users\alireza\Desktop\OS\hw3 Select CMakeLists.txt
+CMake executable not found: /usr/bin/cmake Configure Disable profile
